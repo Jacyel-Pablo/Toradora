@@ -57,8 +57,10 @@ input#buscar:hover, input#buscar:active{
 .container__personagem{
     height: 80%;
     width: 80%;
-    margin: 15% 50%;
+    /* margin: 15% 50%; */
     float: left;
+    border: 2px solid;
+    border-color: aqua;
 }
 .container__descricao{
     height: 87%;
@@ -83,9 +85,10 @@ input#buscar:hover, input#buscar:active{
         width: 100%;
         margin-left: 0%;
         float: none;
+        height: 90%;
     }
     .container__descricao{
-        height: 60%;
+        height: 80%;
         width: 90%;
         float: none;
         margin: 0 5%;

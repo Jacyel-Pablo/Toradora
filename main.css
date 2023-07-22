@@ -22,7 +22,7 @@ body{
     text-align: left;
 }
 .container__descriao{
-    width: 67%;
+    width: 47%;
     height: 100%;
     background: white;
     opacity: 0.6;
@@ -81,8 +81,8 @@ input:hover, input:active{
         font-size: 12px;
     }
     .container__descriao{
-        margin: 1em 2em;
-        width: 20em;
+        margin: 5%;
+        width: 90%;
     }
     .container__imagem{
         margin: 2em 7em;

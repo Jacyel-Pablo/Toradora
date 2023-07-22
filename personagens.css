@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+html {
+    height: 100%;
+}
+  
+body {
+    background-image: url(https://image.tmdb.org/t/p/original/82hAXKATyuldbt4PxSNnHHy2BVO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+  
+nav{
+    background-color: black;
+    height: 12%;
+    opacity: 0.9;
+}
+  
+.personagens {
+    width: 60%;
+    height: 88%;
+    margin-left: 40%;
+}
+  
+div#person {
+    height: 27%;
+    width: 17%;
+    background-color: black;
+    margin-top: 12%;
+    opacity: 0.9;
+    display: inline-block;
+    margin-left: 6%;
+}
+  
+p {
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+    height: 30%;
+}
+  
+img {
+    height: 55%;
+    width: 100%;
+    opacity: 1;
+}
+  
+input {
+    height: 100%;
+    width: 20%;
+    font: 28px arial;
+    background-color: black;
+    color: white;
+    border: none;
+}
+input:hover, input:active{
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 420px) {
+    input{
+        font-size: 12px;
+    }
+    div#personagens{
+        height: auto;
+        width: 100%;
+        margin-left: 0%;
+    }
+    div#person{
+        height: 50%;
+        width: 45%;
+        background-color: black;
+        margin-top: 12%;
+        opacity: 0.9;
+        display: inline-block;
+        margin-left: 30%;
+    }
+    body {
+        background-image: url(Fundos/Fundo-pesonagens.jpg);
+        background-repeat: repeat-y;
+    }
+}

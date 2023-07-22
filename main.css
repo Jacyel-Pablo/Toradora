@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+} 
+body{
+    background-image: url(https://i.pinimg.com/originals/50/ef/36/50ef363e8b6fa8d52996428c0768d1e8.gif);
+    background-repeat: no-repeat;
+    /* https://image.tmdb.org/t/p/original/82hAXKATyuldbt4PxSNnHHy2BVO.jpg */
+    background-size: cover;
+    height: 100%;
+    color: red;
+    text-align: center;
+} 
+.navegacao{
+    background-color: black;
+    height: 12%;
+    opacity: 0.9;
+    text-align: left;
+}
+.container__descriao{
+    width: 67%;
+    height: 100%;
+    background: white;
+    opacity: 0.6;
+    float: left;
+    margin-left: 12em;
+    margin-top: 2%;
+}
+.container__titulo{
+    font-size: 50px;
+    margin: 0.2em 0;
+}
+.container__imagem{
+    /* padding-right: 20%; */
+    height: 100%;
+    width: 35%;
+    float: left;
+    margin: 0 0em;
+    margin-top: 2%;
+    /* border: 2px solid; */
+    text-align: center;
+}
+section{
+    height: 75%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.texto__descriao{
+    text-align: left;
+    color: black;
+}
+img{
+    height: 90%;
+    margin-top: 1em;
+    /* border: 2px solid; */
+}
+input{
+    height: 100%;
+    width: 20%;
+    font: 28px arial;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+input:hover, input:active{
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width: 420px) {
+    body{
+        background-image: url(Fundos/Taiga-fundo-main.gif);
+        background-repeat: no-repeat;
+        background-color: rgb(49, 49, 49);
+    }
+    input{
+        font-size: 12px;
+    }
+    .container__descriao{
+        margin: 1em 2em;
+        width: 20em;
+    }
+    .container__imagem{
+        margin: 2em 7em;
+    }
+    section{
+        display: block;
+    }
+
+}
